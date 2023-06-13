@@ -1,0 +1,138 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-06-01T08:42:50.027Z",
+    "end": "2023-06-01T08:47:26.550Z",
+    "duration": 276523,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "085c3b7d-c4f3-4c8d-86fe-5757978e629f",
+      "title": "",
+      "fullFile": "E:\\seleniumTests\\test\\ryanairTest.js",
+      "file": "\\test\\ryanairTest.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "17a875f6-e5ee-4ae9-835c-2b3f2caf2893",
+          "title": "Verify a login popup is displayed before payment",
+          "fullFile": "E:\\seleniumTests\\test\\ryanairTest.js",
+          "file": "\\test\\ryanairTest.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "successfully displays a login popup before payment",
+              "fullTitle": "Verify a login popup is displayed before payment successfully displays a login popup before payment",
+              "timedOut": false,
+              "duration": 91287,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const result = await verifyPopup(passengers, destFrom, destTo, flightDate);",
+              "err": {},
+              "uuid": "d8b4258a-2a28-4cb0-b1f4-d53be1ec7d73",
+              "parentUUID": "17a875f6-e5ee-4ae9-835c-2b3f2caf2893",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "successfully displays a login popup before payment",
+              "fullTitle": "Verify a login popup is displayed before payment successfully displays a login popup before payment",
+              "timedOut": false,
+              "duration": 66401,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const result = await verifyPopup(passengers, destFrom, destTo, flightDate);",
+              "err": {},
+              "uuid": "a943fba1-b0a6-45bd-81cb-321451d7f492",
+              "parentUUID": "17a875f6-e5ee-4ae9-835c-2b3f2caf2893",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "successfully displays a login popup before payment",
+              "fullTitle": "Verify a login popup is displayed before payment successfully displays a login popup before payment",
+              "timedOut": false,
+              "duration": 118830,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const result = await verifyPopup(passengers, destFrom, destTo, flightDate);",
+              "err": {},
+              "uuid": "e01b63a6-4bd9-49f9-b316-d6a7c39962ac",
+              "parentUUID": "17a875f6-e5ee-4ae9-835c-2b3f2caf2893",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d8b4258a-2a28-4cb0-b1f4-d53be1ec7d73",
+            "a943fba1-b0a6-45bd-81cb-321451d7f492",
+            "e01b63a6-4bd9-49f9-b316-d6a7c39962ac"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 276518,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 0
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
