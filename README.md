@@ -1,5 +1,3 @@
-AutomatedTest
-
 Automated test for Ryanair website. Test case for checking Login popup before payment.
 
 Uses Selenium web-driver and Mocha.
