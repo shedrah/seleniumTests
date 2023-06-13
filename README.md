@@ -1,4 +1,4 @@
-Automated test for Ryanair website. Test case for checking Login popup before payment.
+Automated test for Ryanair website: https://www.ryanair.com/ie/en. Test case for checking Login popup before payment.
 
 Uses Selenium web-driver and Mocha.
 
